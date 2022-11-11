@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 79, 204);
+}
+
+.container{
+    background-color: white;
+    width: 40%;
+    margin: 70px auto;
+    min-height: 80px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+
+.addbar{
+    margin: 0px auto 90px auto;
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.addbar input{
+    width: 80%;
+    margin-top: 50px;
+    height: 50px;
+    border: 2px solid rgb(32, 104, 228);
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+}
+
+.nothing{
+    text-align: center;
+}
+
+.addbar input:focus{ outline: 2px solid rgb(32, 104, 228);}
+
+.addbar button{
+    width: 15%;
+    margin-top: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color:  rgb(32, 104, 228);
+    color: white;
+}
+
+.addbar button:hover{
+    background-color: rgb(39, 164, 39);
+}
+
+.added{
+   width: 90%; 
+  margin: 0 auto;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(156, 215, 238, 0.46);
+    border: 1px solid rgba(128, 128, 128, 0.549);
+    margin-bottom: 10px;
+    height: 57px;
+    border-radius: 5px;
+}
+
+.todo button{
+    height: 45px;
+    width: 10%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(23, 23, 167);
+}
+
+.todo button:hover{
+    background-color: rgb(136, 18, 18);
+}
+
+i{
+    color: white;
+    font-size: larger;
+}
+
+.todo p{
+    margin-left: 10px;
+}
